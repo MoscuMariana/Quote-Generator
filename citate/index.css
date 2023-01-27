@@ -1,0 +1,59 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(251, 250, 245, 255);
+  font-family: helvetica;
+  font-size: 18px;
+  background-image: url(rose.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  margin: 120px auto;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-box {
+  border: 2px solid #dcaf64;
+  border-radius: 5px;
+  padding: 30px 20px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+#quote {
+  color: #444;
+  text-align: center;
+}
+#author {
+  float: right;
+  color: #dcaf64;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+#btn {
+  align-self: center;
+  border: 2px solid#dcaf64;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: #dcaf64;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 100px;
+}
+
+#btn:focus {
+  outline: none;
+}
